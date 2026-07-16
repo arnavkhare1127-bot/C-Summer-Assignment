@@ -1,4 +1,4 @@
-// write a program to check weather a number is palindrome
+// write a program to check wether a number is palindrome
 #include <stdio.h>
 
 int main()
@@ -16,6 +16,7 @@ int main()
         reverse = reverse * 10 + remainder;
         number /= 10;
     }
+
     if (originalNumber == reverse)
     {
         printf("Palindrome\n");
