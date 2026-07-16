@@ -1,16 +1,14 @@
-/* Write a program to sum of natural numbers using for loop */
+// program to calculate the sum of first N natural numbers
 #include <stdio.h>
 int main()
 {
-    int i = 1;
-    int n;
-    int sum = 0;
+    int n, sum = 0;
+    printf("enter the number :");
     scanf("%d", &n);
     for (int i = 1; i <= n; i++)
     {
-        printf("%d\n", i);
         sum = sum + i;
     }
-    printf("The sum is %d\n", sum);
+    printf("sum of %d natural numbers is %d", n, sum);
     return 0;
 }
