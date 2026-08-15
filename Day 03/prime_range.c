@@ -3,11 +3,11 @@
 int main()
 {
     int start ,end ,i , j , prime;
-    printf("Enter start");
+    printf("Enter start\n");
     scanf("%d",&start);
-    printf("Enter end");
+    printf("Enter end\n");
     scanf("%d",&end);
-    printf("Prime numbers \n",start,end);
+    printf("Prime numbers\n",start,end);
 
     for(i=start;i<=end;i++)
     {
@@ -26,7 +26,7 @@ int main()
         }
         if(prime==1)
         {
-            printf("%d",i);
+            printf("%d\n",i);
         }
 
     }
